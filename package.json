@@ -1,0 +1,17 @@
+{
+    "name": "lepioo.noderotaryencoder",
+    "version": "1.0.0",
+    "description": "Reliable monitoring of rotary encoders from a raspberry pi",
+    "main": "NodeRotEnc.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+    "rotary",
+    "encoder",
+    "raspberry",
+    "pi"
+  ],
+    "author": "lepioo",
+    "license": "ISC"
+}
