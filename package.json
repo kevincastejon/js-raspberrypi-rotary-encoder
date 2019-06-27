@@ -1,17 +1,28 @@
 {
-    "name": "raspberrypi-rotary-encoder",
-    "version": "1.3.0",
-    "description": "Reliable monitoring of rotary encoders from a raspberry pi",
-    "main": "RotaryEncoder.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "rotary",
-        "encoder",
-        "raspberry",
-        "pi"
-    ],
-    "author": "lepioo",
-    "license": "ISC"
+  "name": "raspberrypi-rotary-encoder",
+  "version": "1.3.0",
+  "description": "Reliable monitoring of rotary encoders from a raspberry pi",
+  "main": "RotaryEncoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rotary",
+    "encoder",
+    "raspberry",
+    "pi"
+  ],
+  "license": "ISC",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincastejon/js-raspberrypi-rotary-encoder.git"
+  },
+  "author": "kevincastejon",
+  "bugs": {
+    "url": "https://github.com/kevincastejon/js-raspberrypi-rotary-encoder/issues"
+  },
+  "homepage": "https://github.com/kevincastejon/js-raspberrypi-rotary-encoder#readme"
 }
