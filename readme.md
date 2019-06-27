@@ -76,6 +76,7 @@ See more examples into the 'examples' folder
     - The clock pin number [USING WIRINGPI NUMEROTATION !](https://fr.pinout.xyz/pinout/wiringpi#)
     - The data pin number [USING WIRINGPI NUMEROTATION !](https://fr.pinout.xyz/pinout/wiringpi#)
     - If your rotary encoder has a integrated switch you can specify it here, unless it will be ignored
+    
   Tips: Revert the order of the two first parameters to inverse the rotary values (clock-wise/ anti clock-wise)
 
 ### Events
