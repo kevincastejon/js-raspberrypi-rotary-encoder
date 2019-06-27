@@ -85,25 +85,4 @@ See more examples into the 'examples' folder
   - pressed. Fired when you press the switch of your rotary encoder.
   - released. Fired when you release the switch of your rotary encoder.
 
-```
-    const Rotary = require('raspberrypi-rotary-encoder');
-
-    // WARNING ! This is WIRINGPI pin numerotation !! please see https://fr.pinout.xyz/pinout/wiringpi#*
-    const pinClk = 0;
-    const pinDt = 1;
-    const pinSwitch = 2;  // Optional switch
-
-    const rotary = new Rotary(pinClk, pinDt, pinSwitch);
-
-    rotary.on("rotate", (delta) => {
-      console.log("Rotation :"+delta);
-    });
-    rotary.on("pressed", () => {
-      console.log("Rotary switch pressed");
-    });
-    rotary.on("released", () => {
-      console.log("Rotary switch released");
-    });
-```
-
 [Github sources](https://github.com/kevincastejon/js-raspberrypi-rotary-encoder)
