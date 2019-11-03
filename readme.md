@@ -17,6 +17,7 @@ Python dependencies:
 [WiringPi](http://wiringpi.com/download-and-install/)
 ```
     sudo apt-get install wiringpi
+    sudo pip install wiringpi
 ```
 
 [Gaugette](https://github.com/guyc/py-gaugette)
