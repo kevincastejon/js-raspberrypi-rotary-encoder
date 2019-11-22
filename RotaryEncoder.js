@@ -11,7 +11,7 @@ class RotaryEncoder extends require('events') {
       throw new Error('You must provide a DT pin number');
       return
     }
-    this._py = require('child_process').spawn('python', [path.resolve(__dirname, 'RotaryEncoder.py'), pinDt, pinClk, pinSwitch]);
+    this._py = require('child_process').spawn('python', [path.resolve(__dirname, 'RotaryEncoder.py'), pinClk, pinDt, pinSwitch]);
     this._py.stderr.on('data', (dataBuffer) => {
       console.log(dataBuffer.toString());
     })
