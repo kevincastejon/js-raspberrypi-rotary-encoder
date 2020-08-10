@@ -4,6 +4,7 @@
   "description": "Reliable monitoring of rotary encoders from a raspberry pi",
   "main": "RotaryEncoder.js",
   "scripts": {
+    "preinstall": "sudo apt-get install python-dev python-pip && sudo apt-get install wiringpi && sudo pip install wiringpi && cd && git clone https://github.com/guyc/py-gaugette.git && cd py-gaugette && sudo python setup.py install && cd && git clone https://github.com/doceme/py-spidev.git && cd py-spidev && sudo python setup.py install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
