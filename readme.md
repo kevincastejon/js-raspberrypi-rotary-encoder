@@ -5,39 +5,6 @@
 This module allows you to monitor the rotation and the switch state of a rotary encoder from a raspberry pi.
 It's use shell to communicate with python awesome [gaugette](https://github.com/guyc/py-gaugette) library.
 
-## Dependencies
-
-You need python 2.7 and the following libraries installed on your raspberry pi:
-
-Python dependencies:
-```
-    sudo apt-get install python-dev python-pip
-```
-
-[WiringPi](http://wiringpi.com/download-and-install/)
-```
-    sudo apt-get install wiringpi
-    sudo pip install wiringpi
-```
-
-[Gaugette](https://github.com/guyc/py-gaugette)
-```
-    cd
-    git clone https://github.com/guyc/py-gaugette.git
-    cd py-gaugette
-    sudo python setup.py install
-```
-
-and
-
-[Py-Spidev](https://github.com/doceme/py-spidev)
-```
-    cd
-    git clone https://github.com/doceme/py-spidev.git
-    cd py-spidev
-    sudo python setup.py install
-```
-
 ## Installation
 
 Then install this module that way:
