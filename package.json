@@ -1,6 +1,6 @@
 {
   "name": "raspberrypi-rotary-encoder",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "Reliable monitoring of rotary encoders from a raspberry pi",
   "main": "RotaryEncoder.js",
   "scripts": {
