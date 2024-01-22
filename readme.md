@@ -6,8 +6,7 @@ This module allows you to monitor the rotation and the switch state of a rotary 
 It's use shell to communicate with python awesome [gaugette](https://github.com/guyc/py-gaugette) library.
 
 This package has dependencies using wiringpi pins numerotation:
-![Pinout WiringPi](https://github.com/kevincastejon/js-raspberrypi-rotary-encoder/raspinout.png)
-
+![Pinout WiringPi](https://github.com/kevincastejon/js-raspberrypi-rotary-encoder/blob/master/raspinout.png)
 ## Installation
 
 Then install this module that way:
